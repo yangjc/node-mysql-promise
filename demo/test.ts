@@ -5,10 +5,10 @@
 
 'use strict';
 
-import { createPool, MysqlQueryData } from '@yjc/mysql';
+import { createPool, MysqlPool, MysqlQueryData } from '@yjc/mysql';
 
 module.parent === null && (async function () {
-    const pool = createPool({
+    const pool: MysqlPool = createPool({
         "host": "127.0.0.1",
         "user": "root",
         "password": "root",
