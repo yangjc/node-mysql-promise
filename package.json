@@ -1,0 +1,31 @@
+{
+  "name": "@yjc/mysql",
+  "version": "0.1.0",
+  "description": "Promise wrapper for mysql, forked from mysql2/promise.",
+  "main": "./promise.js",
+  "dependencies": {
+    "mysql": "~2.15.0"
+  },
+  "devDependencies": {
+    "@types/mysql": "^2.15.2"
+  },
+  "keywords": [
+    "mysql",
+    "promise"
+  ],
+  "author": "YJC <yangjiecong@live.com>",
+  "license": "MIT",
+  "types": "./promise.d.ts",
+  "scripts": {
+    "test": "node demo/test.js",
+    "build": "tsc --target ESNEXT --module commonjs demo/test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangjc/node-mysql-promise.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yangjc/node-mysql-promise/issues"
+  },
+  "homepage": "https://github.com/yangjc/node-mysql-promise#readme"
+}
