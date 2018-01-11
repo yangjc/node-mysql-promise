@@ -1,6 +1,6 @@
 {
   "name": "@yjc/mysql",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Promise wrapper for mysql, forked from mysql2/promise.",
   "main": "./promise.js",
   "dependencies": {
